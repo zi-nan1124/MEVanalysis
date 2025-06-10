@@ -1,0 +1,58 @@
+[
+  {
+    "owner": "3zpXASYTL4K4CHneBSU73egzApaXdyy5CGUDAc9fkAJW",
+    "mint": "7RVTjCyc6kAoxRCTVv3jba7jNrBFFDUCy8oAkXqFd4Ug",
+    "pre_amount": 89453857.01483846,
+    "post_amount": 89345038.94553275,
+    "delta": -108818.06930570304
+  },
+  {
+    "owner": "HFzTW4s1kXfvUk6LQmx6iDtCXNenBF78HY7Gd8XD5KGY",
+    "mint": "G8TGSYm6dstCdmbEAkXKhLLU2zxSddmEGRuj7J1yUvyC",
+    "pre_amount": 89453857.01483846,
+    "post_amount": 89345038.94553275,
+    "delta": -108818.06930570304
+  },
+  {
+    "owner": "GG8ngx67QciXzq822tHB16YbYDJgoAFPaWTyN3Fd9oyr",
+    "mint": "FZN7QZ8ZUUAxMPfxYEYkH3cXUASzH8EqA6B4tyCL8f1j",
+    "pre_amount": 997.692943065,
+    "post_amount": 998.927925376,
+    "delta": 1.2349823109999534
+  },
+  {
+    "owner": "9tRqSmvuzLZLfwsDrWr6gjjQ4cFagm4AoMZ2Hb15yJhC",
+    "mint": "So11111111111111111111111111111111111111112",
+    "pre_amount": 39.413267662,
+    "post_amount": 39.418659809,
+    "delta": 0.005392146999994907
+  },
+  {
+    "owner": "G69g6LcceCrxHWDuqKvE7abKHde1YvQnuCf9K1bPmrfG",
+    "mint": "7RVTjCyc6kAoxRCTVv3jba7jNrBFFDUCy8oAkXqFd4Ug",
+    "pre_amount": 125928.847997322,
+    "post_amount": 234746.917303026,
+    "delta": 108818.06930570402
+  },
+  {
+    "owner": "ByFuqV8JLng961p4DKycmsJbhNAuhuFVE5kvBKGcq6R",
+    "mint": "So11111111111111111111111111111111111111112",
+    "pre_amount": 16.500761189,
+    "post_amount": 13.977157368,
+    "delta": -2.5236038209999982
+  },
+  {
+    "owner": "8VfznLquRs44UvP4ePtSQ6tqCczLVwW6xmXXkGbwEYTT",
+    "mint": "So11111111111111111111111111111111111111112",
+    "pre_amount": 2657.113102884,
+    "post_amount": 2658.288669796,
+    "delta": 1.1755669119997947
+  },
+  {
+    "owner": "HZeLxbZ9uHtSpwZC3LBr4Nubd14iHwz7bRSghRZf5VCG",
+    "mint": "So11111111111111111111111111111111111111112",
+    "pre_amount": 70701.583958273,
+    "post_amount": 70702.926603035,
+    "delta": 1.3426447620004183
+  }
+]
