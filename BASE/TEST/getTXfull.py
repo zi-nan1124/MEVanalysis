@@ -31,7 +31,7 @@ if not logs:
     print("❌ 交易中无日志")
     exit(0)
 
-# ====== 3. 获取合约 ABI ======
+# ====== 3. 获取合约 ABI.csv ======
 def fetch_abi(address):
     url = f"https://api.etherscan.io/v2/api?chainid={CHAIN_ID}&module=contract&action=getabi&address={address}&apikey={API_KEY}"
     resp = requests.get(url)

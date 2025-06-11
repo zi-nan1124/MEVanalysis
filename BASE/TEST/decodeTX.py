@@ -4,7 +4,7 @@ import json
 # 1. 初始化 Web3
 w3 = Web3()
 
-# 2. 路由合约 ABI（仅需包含要 decode 的函数）
+# 2. 路由合约 ABI.csv（仅需包含要 decode 的函数）
 router_abi = json.loads("""[
   {
     "name": "swapExactTokensForTokens",

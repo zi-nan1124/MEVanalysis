@@ -25,13 +25,13 @@ log = {
     "logIndex": 50
 }
 
-# ✅ Step 2: 获取合约 ABI
+# ✅ Step 2: 获取合约 ABI.csv
 def fetch_abi(address):
     url = f"https://api.etherscan.io/v2/api?chainid={CHAIN_ID}&module=contract&action=getabi&address={address}&apikey={API_KEY}"
     resp = requests.get(url)
     data = resp.json()
     if data.get("status") != "1":
-        raise Exception(f"❌ ABI 获取失败: {data.get('result')}")
+        raise Exception(f"❌ ABI.csv 获取失败: {data.get('result')}")
     return json.loads(data["result"])
 
 # ✅ Step 3: 解码 log
@@ -41,7 +41,7 @@ def decode_log(log):
     topic0 = log["topics"][0]
     print("topic0: ", topic0)
 
-    print("✅ ABI 中所有事件签名如下（明文签名 => keccak256 hash）:")
+    print("✅ ABI.csv 中所有事件签名如下（明文签名 => keccak256 hash）:")
     for item in abi:
         if item.get("type") == "event":
             types = ",".join(i["type"] for i in item["inputs"])

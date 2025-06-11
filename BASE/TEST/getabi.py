@@ -10,7 +10,7 @@ response = requests.get(url)
 result = response.json()
 
 if result["status"] == "1":
-    print("✅ ABI 获取成功")
+    print("✅ ABI.csv 获取成功")
     abi = json.loads(result["result"])  # 解析为列表
     swap_events = [item for item in abi if item.get("type") == "event" and item.get("name") == "Swap"]
 
