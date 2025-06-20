@@ -23,3 +23,72 @@
 [2025-06-11 17:08:33] [fetch_abi_by_address]: 成功获取 ABI.csv: 0xF4DFb8647C3Ef75c5A71b7B0ee9240BdccCe8697
 [2025-06-11 17:08:33] [get_swap_event_and_hash]: 找到 Swap 事件签名: Swap(address,address,int256,int256,uint160,uint128,int24,uint128,uint128)
 [2025-06-11 17:08:33] [get_swap_event_and_hash]: 事件哈希: 0x19b47279256b2a23a1665c810c8d55a1758940ee09377d4f8d26497a3577dc83
+[2025-06-16 16:47:29] [fetch_abi_by_address]: 正在获取 ABI.csv: 0xF4DFb8647C3Ef75c5A71b7B0ee9240BdccCe8697
+[2025-06-16 16:47:30] [fetch_abi_by_address]: 成功获取 ABI.csv: 0xF4DFb8647C3Ef75c5A71b7B0ee9240BdccCe8697
+[2025-06-16 16:47:30] [get_swap_abiandhash_by_address]: 找到 Swap 事件签名: Swap(address,address,int256,int256,uint160,uint128,int24,uint128,uint128)
+[2025-06-16 16:47:30] [get_swap_abiandhash_by_address]: 事件哈希: 0x19b47279256b2a23a1665c810c8d55a1758940ee09377d4f8d26497a3577dc83
+[2025-06-16 16:50:57] [fetch_abi_by_address]: 正在获取 ABI.csv: 0xF4DFb8647C3Ef75c5A71b7B0ee9240BdccCe8697
+[2025-06-16 16:50:58] [fetch_abi_by_address]: 成功获取 ABI.csv: 0xF4DFb8647C3Ef75c5A71b7B0ee9240BdccCe8697
+[2025-06-16 16:50:58] [get_swap_abiandhash_by_address]: 找到 Swap 事件签名: Swap(address,address,int256,int256,uint160,uint128,int24,uint128,uint128)
+[2025-06-16 16:50:58] [get_swap_abiandhash_by_address]: 事件哈希: 0x19b47279256b2a23a1665c810c8d55a1758940ee09377d4f8d26497a3577dc83
+[2025-06-16 17:14:55] [<module>]: ========== 测试开始 ==========
+[2025-06-16 17:14:55] [<module>]: ===== 开始测试函数: test_fetch_abi_by_address =====
+[2025-06-16 17:14:55] [fetch_abi_by_address]: 正在获取 ABI.csv: 0x6cDcb1C4A4D1C3C6d054b27AC5B77e89eAFb971d
+[2025-06-16 17:14:57] [fetch_abi_by_address]: 成功获取 ABI.csv: 0x6cDcb1C4A4D1C3C6d054b27AC5B77e89eAFb971d
+[2025-06-16 17:14:57] [<module>]: ===== 开始测试函数: test_get_swap_abiandhash_by_address =====
+[2025-06-16 17:14:57] [fetch_abi_by_address]: 正在获取 ABI.csv: 0xF4DFb8647C3Ef75c5A71b7B0ee9240BdccCe8697
+[2025-06-16 17:14:58] [fetch_abi_by_address]: 成功获取 ABI.csv: 0xF4DFb8647C3Ef75c5A71b7B0ee9240BdccCe8697
+[2025-06-16 17:14:58] [get_swap_abiandhash_by_address]: 找到 Swap 事件签名: Swap(address,address,int256,int256,uint160,uint128,int24,uint128,uint128)
+[2025-06-16 17:14:58] [get_swap_abiandhash_by_address]: 事件哈希: 0x19b47279256b2a23a1665c810c8d55a1758940ee09377d4f8d26497a3577dc83
+[2025-06-16 17:14:58] [<module>]: =========== 测试结束 ===========
+[2025-06-16 17:16:04] [<module>]: ========== 测试开始 ==========
+[2025-06-16 17:16:04] [<module>]: ===== 开始测试函数: test_fetch_abi_by_address =====
+[2025-06-16 17:16:04] [test_fetch_abi_by_address]: ===== 开始测试函数: test_fetch_abi_by_address =====
+[2025-06-16 17:16:04] [fetch_abi_by_address]: 正在获取 ABI.csv: 0x6cDcb1C4A4D1C3C6d054b27AC5B77e89eAFb971d
+[2025-06-16 17:16:05] [fetch_abi_by_address]: 成功获取 ABI.csv: 0x6cDcb1C4A4D1C3C6d054b27AC5B77e89eAFb971d
+[2025-06-16 17:16:05] [test_fetch_abi_by_address]: ABI.csv 获取成功，共包含函数/事件数量：76
+[2025-06-16 17:16:05] [<module>]: ===== 开始测试函数: test_get_swap_abiandhash_by_address =====
+[2025-06-16 17:16:05] [test_get_swap_abiandhash_by_address]: ===== 开始测试函数: test_get_swap_abiandhash_by_address =====
+[2025-06-16 17:16:05] [fetch_abi_by_address]: 正在获取 ABI.csv: 0xF4DFb8647C3Ef75c5A71b7B0ee9240BdccCe8697
+[2025-06-16 17:16:06] [fetch_abi_by_address]: 成功获取 ABI.csv: 0xF4DFb8647C3Ef75c5A71b7B0ee9240BdccCe8697
+[2025-06-16 17:16:06] [get_swap_abiandhash_by_address]: 找到 Swap 事件签名: Swap(address,address,int256,int256,uint160,uint128,int24,uint128,uint128)
+[2025-06-16 17:16:06] [get_swap_abiandhash_by_address]: 事件哈希: 0x19b47279256b2a23a1665c810c8d55a1758940ee09377d4f8d26497a3577dc83
+[2025-06-16 17:16:06] [test_get_swap_abiandhash_by_address]: ✅ Swap ABI 和 topic0 获取成功
+[2025-06-16 17:16:06] [test_get_swap_abiandhash_by_address]: Swap ABI: [{'anonymous': False, 'inputs': [{'indexed': True, 'internalType': 'address', 'name': 'sender', 'type': 'address'}, {'indexed': True, 'internalType': 'address', 'name': 'recipient', 'type': 'address'}, {'indexed': False, 'internalType': 'int256', 'name': 'amount0', 'type': 'int256'}, {'indexed': False, 'internalType': 'int256', 'name': 'amount1', 'type': 'int256'}, {'indexed': False, 'internalType': 'uint160', 'name': 'sqrtPriceX96', 'type': 'uint160'}, {'indexed': False, 'internalType': 'uint128', 'name': 'liquidity', 'type': 'uint128'}, {'indexed': False, 'internalType': 'int24', 'name': 'tick', 'type': 'int24'}, {'indexed': False, 'internalType': 'uint128', 'name': 'protocolFeesToken0', 'type': 'uint128'}, {'indexed': False, 'internalType': 'uint128', 'name': 'protocolFeesToken1', 'type': 'uint128'}], 'name': 'Swap', 'type': 'event'}]
+[2025-06-16 17:16:06] [test_get_swap_abiandhash_by_address]: Swap topic0: 0x19b47279256b2a23a1665c810c8d55a1758940ee09377d4f8d26497a3577dc83
+[2025-06-16 17:16:06] [<module>]: =========== 测试结束 ===========
+[2025-06-20 18:06:59] [LRUCache][_load_raw_file] [ERROR]: 原始数据加载完成，共 79171 条记录
+[2025-06-20 18:06:59] [LRUCache][_load_cache] [ERROR]: 缓存文件加载完成，共 3 条记录
+[2025-06-20 18:06:59] [LRUCache][query_tx] [ERROR]: 命中缓存: 0xe9bfdb2ad24db07ec9c2fbb412f7924b0ae79051
+[2025-06-20 18:06:59] [LRUCache][query_tx] [ERROR]: 原始数据中找到记录，加入缓存: 0x948d3119c4db00826aa4eec635efdd9fa94a2364
+[2025-06-20 18:07:37] [LRUCache][_load_raw_file] [ERROR]: 原始数据加载完成，共 79171 条记录
+[2025-06-20 18:07:37] [LRUCache][_load_cache] [ERROR]: 缓存文件加载完成，共 0 条记录
+[2025-06-20 18:07:37] [LRUCache][query_tx] [ERROR]: 原始数据中找到记录，加入缓存: 0xe9bfdb2ad24db07ec9c2fbb412f7924b0ae79051
+[2025-06-20 18:07:56] [LRUCache][_load_raw_file] [ERROR]: 原始数据加载完成，共 79171 条记录
+[2025-06-20 18:07:56] [LRUCache][_load_cache] [ERROR]: 缓存文件加载完成，共 0 条记录
+[2025-06-20 18:07:56] [LRUCache][query_tx] [ERROR]: 原始数据中找到记录，加入缓存: 0xe9bfdb2ad24db07ec9c2fbb412f7924b0ae79051
+[2025-06-20 18:07:56] [LRUCache][_save_cache] [ERROR]: 缓存文件已保存，共 1 条记录
+[2025-06-20 18:07:56] [LRUCache][query_tx] [ERROR]: 原始数据中找到记录，加入缓存: 0x948d3119c4db00826aa4eec635efdd9fa94a2364
+[2025-06-20 18:07:56] [LRUCache][_save_cache] [ERROR]: 缓存文件已保存，共 2 条记录
+[2025-06-20 18:07:56] [LRUCache][query_tx] [ERROR]: 原始数据中找到记录，加入缓存: 0xcb47fb64e79125288a810b11348ec312f87510af
+[2025-06-20 18:07:56] [LRUCache][_save_cache] [ERROR]: 缓存文件已保存，共 3 条记录
+[2025-06-20 18:07:56] [LRUCache][query_tx] [ERROR]: 命中缓存: 0xe9bfdb2ad24db07ec9c2fbb412f7924b0ae79051
+[2025-06-20 18:07:56] [LRUCache][query_tx] [ERROR]: 原始数据中找到记录，加入缓存: 0x0066a3cb31c1e4ac620a0098e21546e4f2835a6e
+[2025-06-20 18:07:56] [LRUCache][put] [ERROR]: 缓存已满，移除最旧记录: 0x948d3119c4db00826aa4eec635efdd9fa94a2364
+[2025-06-20 18:07:56] [LRUCache][_save_cache] [ERROR]: 缓存文件已保存，共 3 条记录
+[2025-06-20 18:07:56] [LRUCache][query_tx] [ERROR]: 原始数据中找到记录，加入缓存: 0x71303fe3d74482faf35430a6b68b18129f798a5a
+[2025-06-20 18:07:56] [LRUCache][put] [ERROR]: 缓存已满，移除最旧记录: 0xcb47fb64e79125288a810b11348ec312f87510af
+[2025-06-20 18:07:56] [LRUCache][_save_cache] [ERROR]: 缓存文件已保存，共 3 条记录
+[2025-06-20 18:07:56] [LRUCache][query_tx] [ERROR]: 命中缓存: 0xe9bfdb2ad24db07ec9c2fbb412f7924b0ae79051
+[2025-06-20 18:07:56] [LRUCache][query_tx] [ERROR]: 未找到记录: 0x1111111111111111111111111111111111111111
+[2025-06-20 18:07:56] [LRUCache][_save_cache] [ERROR]: 缓存文件已保存，共 3 条记录
+[2025-06-20 18:07:56] [LRUCache][save_and_close] [ERROR]: LRUCache 已保存缓存文件 (显式调用)
+[2025-06-20 18:08:23] [LRUCache][_load_raw_file] [ERROR]: 原始数据加载完成，共 79171 条记录
+[2025-06-20 18:08:23] [LRUCache][_load_cache] [ERROR]: 缓存文件加载完成，共 0 条记录
+[2025-06-20 18:09:09] [LRUCache][query_tx] [ERROR]: 原始数据中找到记录，加入缓存: 0xe9bfdb2ad24db07ec9c2fbb412f7924b0ae79051
+[2025-06-20 18:09:15] [LRUCache][_save_cache] [ERROR]: 缓存文件已保存，共 1 条记录
+[2025-06-20 18:09:21] [LRUCache][query_tx] [ERROR]: 原始数据中找到记录，加入缓存: 0x948d3119c4db00826aa4eec635efdd9fa94a2364
+[2025-06-20 18:09:28] [LRUCache][_save_cache] [ERROR]: 缓存文件已保存，共 2 条记录
+[2025-06-20 18:09:30] [LRUCache][query_tx] [ERROR]: 原始数据中找到记录，加入缓存: 0xcb47fb64e79125288a810b11348ec312f87510af
+[2025-06-20 18:09:31] [LRUCache][_save_cache] [ERROR]: 缓存文件已保存，共 3 条记录
+[2025-06-20 18:09:32] [LRUCache][query_tx] [ERROR]: 命中缓存: 0xe9bfdb2ad24db07ec9c2fbb412f7924b0ae79051

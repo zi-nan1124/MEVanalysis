@@ -54,6 +54,14 @@ class Logger:
         print(f"\033[91m{full_msg}\033[0m")  # 红色输出到 CLI
         self._write(full_msg)
 
+    def infoX(self, message: str):
+        prefix = self._get_prefix()
+        now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        full_msg = f"[{now}] {prefix} [LRU_LOG]: {message}"
+        print(f"\033[92m{full_msg}\033[0m")  # 绿色输出到 CLI
+        self._write(full_msg)
+
+
 if __name__ == "__main__":
     logger = Logger()
     logger.info("正在连接 Solana 节点")
