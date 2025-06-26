@@ -11,7 +11,7 @@ def fetch_abi_by_address(address: str) -> dict:
     返回:
     - 解析后的 ABI.csv JSON（Python dict 列表），失败则返回空列表
     """
-    url = f"https://api.etherscan.io/v2/api?chainid=8453&module=contract&action=getabi&address={address}&apikey={BASE_SCAN_API_KEY}"
+    url = f"https://api.etherscan.io/v2/api?chainid={BASE_CHAIN_ID}&module=contract&action=getabi&address={address}&apikey={BASE_SCAN_API_KEY}"
 
     try:
         logger.info(f"正在获取 ABI.csv: {address}")

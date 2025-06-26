@@ -12,8 +12,8 @@ class LRUCache:
         self.capacity = 3
         self.cache = OrderedDict()
         self.lock = threading.Lock()
-        self.cache_file = OUTPUT + LRU_CACHE_CSV
-        self.raw_file = OUTPUT + FILTER
+        self.cache_file = DATA + LRU_CACHE_CSV
+        self.raw_file = DATA + FILTER
         self._load_raw_file()
         self._load_cache()
 
