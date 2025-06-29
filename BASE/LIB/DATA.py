@@ -180,7 +180,7 @@ def batch_get_blocks(rpc_url: str, start_block: int, end_block: int) -> (bool, p
     logger.info(f"{rpc_url} 开始批量请求区块 {start_block} 到 {end_block}")
 
     try:
-        response = httpx.post(rpc_url, json=payload, timeout=30.0)
+        response = httpx.post(rpc_url, json=payload, timeout=180.0)
         response.raise_for_status()
         results = response.json()
         logger.info(f"{start_block}-{end_block}: 请求成功，返回 {len(results)} 条区块数据")
@@ -234,7 +234,7 @@ def batch_get_receipts(rpc_url: str, df: pd.DataFrame) -> (bool, pd.DataFrame):
 
     tx_hashes = df["hash"].dropna().astype(str).tolist()
     if not tx_hashes:
-        logger.warning("没有有效的交易哈希可查询")
+        logger.warn("没有有效的交易哈希可查询")
         return False, pd.DataFrame(columns=["hash", "status"])
 
     logger.info(f"{rpc_url} 开始批量请求，共 {len(tx_hashes)} 条交易哈希")
@@ -250,7 +250,7 @@ def batch_get_receipts(rpc_url: str, df: pd.DataFrame) -> (bool, pd.DataFrame):
     ]
 
     try:
-        response = httpx.post(rpc_url, json=payload, timeout=30.0)
+        response = httpx.post(rpc_url, json=payload, timeout=180.0)
         response.raise_for_status()
         results = response.json()
         logger.info(f"请求成功，返回 {len(results)} 条数据")
@@ -271,7 +271,7 @@ def batch_get_receipts(rpc_url: str, df: pd.DataFrame) -> (bool, pd.DataFrame):
                 "status": receipt.get("status")
             })
         else:
-            logger.warning(f"收据缺失，txid={item.get('id')}")
+            logger.warn(f"收据缺失，txid={item.get('id')}")
             simplified.append({
                 "hash": None,
                 "status": None

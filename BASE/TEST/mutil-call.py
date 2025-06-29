@@ -75,7 +75,7 @@ def batch_get_receipts_with_progress(
             if receipt:
                 logger.info(f"🟢 txid={txid}, blockNumber={receipt.get('blockNumber')}, status={receipt.get('status')}")
             else:
-                logger.warning(f"⚠️  txid={txid}，未找到收据")
+                logger.warn(f"⚠️  txid={txid}，未找到收据")
 
     except Exception as e:
         logger.error(f"❌ 请求出错: {e}")

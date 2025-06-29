@@ -5,6 +5,8 @@ BASE_RPC_URL_LIST = [
     "https://light-restless-log.base-mainnet.quiknode.pro/bd5cbe29a6f7c4a1fdceabc1fdfa443c2db51247",
     "https://wispy-wider-frog.base-mainnet.quiknode.pro/716ecf61c5c7d36792453dc1f58bfebbec14ec1a/"
 ]
+WEIGHTS = [100, 0]
+MAX_THREADS = 10
 DUNE_API_KEY = "ZG2PGNnEjNOLQQvHeBNvLp23Q3anZDvc"
 
 log_enabled = True
@@ -30,5 +32,5 @@ def BASE_SCAN_API_KEY():
     ]
     return choice(api_keys)
 
-START_BLOCK = 24488284
-END_BLOCK = 25815677
+START_BLOCK = 24488000
+END_BLOCK = 25815000

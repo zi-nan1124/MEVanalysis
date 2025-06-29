@@ -69,7 +69,7 @@ def test_fetch_abi_by_address():
     if abi:
         logger.info(f"ABI.csv 获取成功，共包含函数/事件数量：{len(abi)}")
     else:
-        logger.warning("ABI.csv 获取失败")
+        logger.warn("ABI.csv 获取失败")
 
 def test_get_swap_abiandhash_by_address():
     logger.info("===== 开始测试函数: test_get_swap_abiandhash_by_address =====")
@@ -81,7 +81,7 @@ def test_get_swap_abiandhash_by_address():
         logger.info(f"Swap ABI: {swap_abi}")
         logger.info(f"Swap topic0: {swap_hash}")
     else:
-        logger.warning("❌ 获取失败")
+        logger.warn("❌ 获取失败")
 
 
 
